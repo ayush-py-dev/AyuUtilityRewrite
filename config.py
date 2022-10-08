@@ -1,3 +1,6 @@
+"""
+Fill this according to your need
+"""
 TOKEN=""
 GUILD_ID=
 VERIFY_CH=
