@@ -69,4 +69,4 @@ ko-fi.com/ayushanand20097)
 **Stats:**
 
 Lisence:
-[![License](https://img.shields.io/github/license/{ayush-py-dev}/{nuke-bot}.svg)]()
+[![License](https://img.shields.io/github/license/ayush-py-dev/AyuUtilityRewrtie.svg)]()
