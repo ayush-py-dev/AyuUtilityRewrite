@@ -1,0 +1,14 @@
+discord.py==1.7.3
+py-cord==2.0.0b7
+aiohttp==3.7.4.post0
+aiosqlite==0.17.0
+chat-exporter==2.2.1
+DiscordUtils==1.3.4
+easy-pil==0.1.6
+humanize==4.1.0
+Pillow==8.4.0
+psutil==5.5.1
+PyGithub==1.55
+regex==2022.6.2
+sqlparse==0.4.2
+pytimeparse==1.1.8 
