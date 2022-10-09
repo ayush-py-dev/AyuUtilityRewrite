@@ -6,6 +6,25 @@ This bot is open source and you can ~~steal~~ use the codes without any second t
 
 If you need any help or having some trouble to run the bot, feel free to join my discord to get help.
 
+## How to run
+
+**I highly recommend to use a virtual envoirnment so not to mess up with your installed packages**
+
+> fill up your config.py file
+
+> run main.py file
+#### For Widnows:
+(use `python`)
+```sh
+python main.py
+```
+#### For Linux:
+(use `python3`)
+```sh
+python3 main.py
+```
+------------------------
+
 ## Commands:
 
 Following are the commands of Bot:
