@@ -4,6 +4,7 @@ A discord Bot made for the private server of youtuber/software developer: **Ayu 
 
 This bot is open source and you can ~~steal~~ use the codes without any second thought. (Just don't forget to give credits :D )
 
+If you need any help or having some trouble to run the bot, feel free to join my discord to get help.
 
 ## Commands:
 
