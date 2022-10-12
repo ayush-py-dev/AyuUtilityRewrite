@@ -1,22 +1,23 @@
 import re
-import config
 from discord import Color, Embed
+
+# import config
 from discord.ext import commands
 
 
-async def create_guest_paste_bin(session, code):
-    res = await session.post(
-        "https://pastebin.com/api/api_post.php",
-        data={
-            "api_dev_key": config.PASTEBINAPI,
-            "api_paste_code": code,
-            "api_paste_private": 0,
-            "api_paste_name": "output.txt",
-            "api_paste_expire_date": "1D",
-            "api_option": "paste",
-        },
-    )
-    return await res.text()
+# async def create_guest_paste_bin(session, code):
+#     res = await session.post(
+#         "https://pastebin.com/api/api_post.php",
+#         data={
+#             "api_dev_key": config.PASTEBINAPI,
+#             "api_paste_code": code,
+#             "api_paste_private": 0,
+#             "api_paste_name": "output.txt",
+#             "api_paste_expire_date": "1D",
+#             "api_option": "paste",
+#         },
+#     )
+#     return await res.text()
 
 
 class CodeExec(commands.Cog):
@@ -36,11 +37,20 @@ class CodeExec(commands.Cog):
         return await res.json()
 
     @commands.command()
-    async def run(self, ctx: commands.Context, *, codeblock: str):
+    async def run(self, ctx: commands.Context, *, codeblock: str = None):
         """
         Run code and get results instantly
         **Note**: You must use codeblocks around the code
         """
+        if not codeblock and ctx.message.reference:
+            codeblock = ctx.fetch_message(ctx.message.reference.message_id)
+        else:
+            return await ctx.reply(
+                embed = Embed(
+                    title="Uh-oh",
+                    description="Can't find your code :("
+                )
+            )
         matches = self.regex.findall(codeblock)
         if not matches:
             return await ctx.reply(

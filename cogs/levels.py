@@ -223,7 +223,7 @@ class Levels(commands.Cog):
                 xp:float=0
                 boost = 0.1
                 bump_role = msg.guild.get_role(
-                    1018184721647292516
+                    BUMPER_ROLE
                 )
                 if bump_role in msg.author.roles:
                     boost=0.2

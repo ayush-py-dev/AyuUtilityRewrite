@@ -24,7 +24,7 @@ class CustomBot(commands.Cog):
     )
     async def addbot(self,ctx: commands.Context):
         await ctx.respond(
-            "You have requested to add your bot to the server.\nWrite confirm to begin"
+            "You have requested to add your bot to the server.\nWrite `confirm` to begin"
         )
         def check(msg):
             return msg.author==ctx.author and msg.channel==ctx.channel

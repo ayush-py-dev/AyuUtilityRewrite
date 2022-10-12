@@ -1,5 +1,5 @@
 """
-I would suggest not to touch anything as this cog is fucking hardcoded.
+I would suggest not to touch anything as this cog is hardcoded.
 Even I don't understand some parts now XD
 If you have lots of free time (which I don't) you can always make it better
     and open a pull request :)
