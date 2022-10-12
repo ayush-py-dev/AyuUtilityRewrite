@@ -1,0 +1,10 @@
+These are the Database required for bot.
+Economy/mprice.db
+Economy/users.db
+afk.db
+gaway.db
+invites.db
+levels.db
+reminder.db
+todo.db
+warns.db
