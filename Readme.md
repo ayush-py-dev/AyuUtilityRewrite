@@ -13,7 +13,7 @@ If you need any help or having some trouble to run the bot, feel free to join my
 > fill up your config.py file
 
 > run main.py file
-#### For Widnows:
+#### For Windows:
 (use `python`)
 ```sh
 python main.py
@@ -23,13 +23,15 @@ python main.py
 ```sh
 python3 main.py
 ```
+***Note: There is no need to run `main.py` file again and again. Run it once and from next time you can run `bot.py` file directly***
+
 ------------------------
 
 ## Commands:
 
 Following are the commands of Bot:
 
-**Note:** *__This bot features slash commands for users as well as some of the commands are prefix as well.__*
+**Note:** *__This bot features both slash commands and prefix commands for users.__*
 
 *hint: `<required_arg>` `[optional_arg]`*
 
